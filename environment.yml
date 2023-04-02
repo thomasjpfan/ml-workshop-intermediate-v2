@@ -1,0 +1,9 @@
+name: ml-workshop-v2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.*
+  - scikit-learn=1.2.*
+  - seaborn
+  - pandas
+  - jupyterlab

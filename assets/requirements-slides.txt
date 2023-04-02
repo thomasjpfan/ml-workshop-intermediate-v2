@@ -1,0 +1,6 @@
+certifi
+Jinja2
+livereload
+MarkupSafe
+six
+tornado
