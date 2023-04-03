@@ -1,0 +1,3 @@
+scikit-learn==1.2.*
+seaborn
+pandas

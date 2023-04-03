@@ -55,7 +55,7 @@ conda env create -f environment.yml
 This will create a virtual environment named `ml-workshop-intermediate-v2`. To activate this environment:
 
 ```bash
-conda activate ml-workshop-intermediate-v2
+conda activate ml-workshop-v2
 ```
 
 Finally, to start `jupyterlab` run:
