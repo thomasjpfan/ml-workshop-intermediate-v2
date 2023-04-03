@@ -20,6 +20,7 @@ git clone https://github.com/thomasjpfan/ml-workshop-intermediate-v2
 Please note that I may add and improve the material until shortly before the session. You can update your copy by running:
 
 ```bash
+cd ml-workshop-intermediate-v2
 git pull origin main
 ```
 
