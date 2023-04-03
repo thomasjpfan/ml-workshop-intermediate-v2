@@ -30,15 +30,6 @@ If you are not familiar with git, you can download this repository as a zip file
 
 ## Running the notebooks
 
-### Run with Google's Colab
-
-If you have any issues with installing `conda` or running `jupyter` on your local computer, then you can run the notebooks on Google's Colab:
-
-1. [Pandas output](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/01-pandas-output.ipynb)
-2. [Categorical Data & Pandas Input](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/02-categorical-data.ipynb)
-3. [Parameter Tuning](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/03-parameter-tuning.ipynb)
-4. [Model Evaluation](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/04-model-evaluation.ipynb)
-
 ### Local Installation
 
 Local installation requires `conda` to be installed on your machine. The simplest way to install `conda` is to install `miniconda` by using an installer for your operating system provided at [docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html). After `conda` is installed, navigate to this repository on your local machine:
@@ -66,6 +57,15 @@ jupyter lab
 ```
 
 This should open a browser window with the `jupterlab` interface.
+
+### Run with Google's Colab
+
+If you have any issues with installing `conda` or running `jupyter` on your local computer, then you can run the notebooks on Google's Colab:
+
+1. [Pandas output](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/01-pandas-output.ipynb)
+2. [Categorical Data & Pandas Input](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/02-categorical-data.ipynb)
+3. [Parameter Tuning](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/03-parameter-tuning.ipynb)
+4. [Model Evaluation](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/04-model-evaluation.ipynb)
 
 ## License
 
