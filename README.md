@@ -35,8 +35,8 @@ If you have any issues with installing `conda` or running `jupyter` on your loca
 
 1. [Pandas output](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/01-pandas-output.ipynb)
 2. [Categorical Data & Pandas Input](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/02-categorical-data.ipynb)
-3. [Parameter Tuning](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/03-parameter-tuning.ipynb)
-4. [Model Evaluation](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/04-model-evaluation.ipynb)
+3. [Parameter Tuning](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/03-parameter-tuning.ipynb)
+4. [Model Evaluation](https://colab.research.google.com/github/thomasjpfan/ml-workshop-intermediate-v2/blob/main/notebooks/04-model-evaluation.ipynb)
 
 ### Local Installation
 
