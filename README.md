@@ -1,5 +1,4 @@
-# Intermediate Machine Learning with scikit-learn
-## Pandas Interoperability, Categorical Data, Parameter Tuning and Model Evaluation
+# Intermediate Machine Learning with scikit-learn: Pandas Interoperability, Categorical Data, Parameter Tuning and Model Evaluation
 
 *By Thomas J. Fan*
 
