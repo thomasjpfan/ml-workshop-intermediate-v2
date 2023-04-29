@@ -1,5 +1,4 @@
-
-hist_perm_importance = permutation_importance(hist, X_test, y_test, n_repeats=5, random_state=0, n_jobs=2)
+hist_perm_importance = permutation_importance(hist, X_test, y_test, n_repeats=5, random_state=0, n_jobs=2, scoring="neg_mean_absolute_error")
 
 plot_permutation_importance(hist_perm_importance, feature_names, top_k=10);
 
