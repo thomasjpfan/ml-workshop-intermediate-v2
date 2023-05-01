@@ -160,10 +160,17 @@ class: chapter-slide
 from sklearn.preprocessing import OrdinalEncoder
 ```
 
-`OneHotEncoder`: Encodes categories into an integer
+`OneHotEncoder`: Encodes categories using a one-hot encoding scheme
 ```py
 from sklearn.preprocessing import OneHotEncoder
 ```
+
+---
+
+class: chapter-slide
+
+# Notebook 📔!
+## notebooks/02-categorical-data.ipynb
 
 ---
 
@@ -746,11 +753,13 @@ class: middle
 # Permutation Feature Importance 👑 (Pt 1)
 
 ```py
-X_train = [[0, 1, 2],
-           [1, 2, 3],
-           [2, 1, 4],
-           [3, 1, 9],
-           [4, 3, 1]]
+X_train = [
+    [0, 1, 2],
+    [1, 2, 3],
+    [2, 1, 4],
+    [3, 1, 9],
+    [4, 3, 1]
+]
 y_train = [1, 0, 1, 1, 0]
 
 model.fit(X_train, y_train)
