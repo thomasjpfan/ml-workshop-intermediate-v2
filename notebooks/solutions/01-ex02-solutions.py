@@ -1,14 +1,18 @@
-log_reg = make_pipeline(
+pipe = make_pipeline(
     StandardScaler(),
     KNNImputer(add_indicator=True),
     LogisticRegression()
 )
-log_reg.set_output(transform="pandas")
-log_reg.fit(X_train, y_train)
+pipe.set_output(transform="pandas")
 
-coef = log_reg[-1].coef_.ravel()
-feature_names = log_reg[-1].feature_names_in_
+pipe.fit(X_train, y_train)
 
-coef_series = pd.Series(coef, index=feature_names)
+pipe.score(X_test, y_test)
 
-coef_series.sort_values().plot(kind="barh");
+log_reg = pipe[-1]
+
+coef_series = pd.Series(
+    log_reg.coef_.ravel(), index=log_reg.feature_names_in_
+)
+
+coef_series.sort_values().plot(kind="barh")
