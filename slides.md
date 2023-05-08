@@ -724,21 +724,39 @@ class: chapter-slide
 
 ---
 
-class: middle
+# Picking metrics
 
-# Post-hoc Model Interpretation
+![:scale 100%](images/metrics-business.svg)
 
-- Not inference
-- Not causality
-- Explaining the model != explaining the data
-- Model inspection only tells you about the model
-- Useful only if the model is good
+---
+
+class: chapter-slide
+
+# Post-hoc Model Interpretation 🔬
 
 ---
 
 class: middle
 
-# Post-hoc Model Interpretation
+.g.g-middle[
+.g-8[
+# Post-hoc Model Interpretation 🔬
+- Not inference
+- Not causality
+- Explaining the model != explaining the data
+- Model inspection only tells you about the model
+- Useful only if the model is good
+]
+.g-4[
+![:scale 100%](images/microscope.jpg)
+]
+]
+
+---
+
+class: middle
+
+# Post-hoc Model Interpretation 🔬
 
 ## Inspection based on model
 - Interpreting the coefficients in a linear model: `coef_`
