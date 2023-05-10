@@ -860,6 +860,16 @@ class: chapter-slide
 
 ---
 
+# Permutation Importance Pitfalls
+
+![:scale 100%](images/permutation_importance_pitfalls.jpg)
+
+.footnote[
+[Link to Source](https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html)
+]
+
+---
+
 # Partial Dependence Plots (Pt 1)
 
 ```py
@@ -949,6 +959,26 @@ class: chapter-slide
 
 # Notebook 📓!
 ## notebooks/04-model-evaluation.ipynb
+
+---
+
+# Partial Dependence - Categorical features
+
+.center[
+![:scale 55%](images/pd_cat.png)
+]
+
+[Link to Source](https://scikit-learn.org/stable/auto_examples/inspection/plot_partial_dependence.html#sphx-glr-auto-examples-inspection-plot-partial-dependence-py)
+
+---
+
+# Individual Conditional Expectation Plots
+
+.center[
+![:scale 70%](images/ice.png)
+]
+
+[Link to Source](https://scikit-learn.org/stable/auto_examples/inspection/plot_partial_dependence.html#sphx-glr-auto-examples-inspection-plot-partial-dependence-py)
 
 ---
 
